@@ -1,9 +1,17 @@
 *{
   margin: 0;
   padding: 0;
-  /* background-color: rgb(238, 211, 176); */
+  /* background-color: #F7F7F7; */
   
 } 
+.banner{
+  background-image: url(../public/Images/main-banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
 .offer-section{
   background-color: rgb(238, 211, 176);
 
@@ -13,6 +21,7 @@
 .offer-first{
   line-height: 15px;
   background-color: white;
+  /* margin: 1rem; */
 }
 .offer-first button{
   padding: 7px 15px ;
@@ -22,6 +31,37 @@
   border: none;
 }
 .offer-mobile img{
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
+}
+
+/* ***********Third Section************* */
+.third-banner{
+  background-image:url(../public/Images/third-images.webp) ;
+  width: 100%;
+  height: 28rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.third-banner p{
+  line-height:9px;
+}
+.third-banner-two{
+  background-image:url(../public/Images/Third-second-banner.webp) ;
+  width: 100%;
+  height: 28rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.third-banner-two {
+  line-height:15px;
+}
+
+/* **************Offer Mobile Section****************** */
+.offer-mobile-section img{
+width: 300px;
 }
