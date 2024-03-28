@@ -1,10 +1,10 @@
 import React from 'react';
 const Footer = () => {
     return (
-        <div className=''>
+        <div className='mt-5'>
         <div className='container'>
             <div className='d-flex justify-content-between flex-wrap '>
-                <div className=''>
+                <div className='lh-1'>
                     <h4>Support</h4>
                     <p>Online Help</p>
                     <p>Customer Services</p>
@@ -19,7 +19,7 @@ const Footer = () => {
                     <p>Certification</p>
                     <p>Service Center</p>
                 </div>
-                <div>
+                <div  className='lh-1'>
                     <h4>SHOP AND LEARN</h4>
                     <p>Xiaomi Phones</p>
                     <p>Redmi Phones</p>
@@ -29,13 +29,13 @@ const Footer = () => {
                     <p>Lifestyle</p>
                     <p>Smart Home</p>
                 </div>
-                <div>
+                <div  className='lh-1'>
                     <h4>RETAIL STORE</h4>
                     <p>Mi Home</p>
                     <p>MI Authorized Store</p>
                     <p>Mi Store Franchise</p>
                 </div>
-                <div>
+                <div  className='lh-1'>
                     <h4>ABOUT US</h4>
                     <p>Xiaomi</p>
                     <p>Privacy Agreement</p>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <p>Services Quality</p>
                     <p>Xiaomi HyperOS</p>
                 </div>
-                <div>
+                <div  className='lh-1'>
                     <h4>Follow MI</h4>
                     <p>Let's stay in touch</p>
                 </div>

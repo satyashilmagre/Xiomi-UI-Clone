@@ -12,7 +12,7 @@ const Banner = () => {
                 </div>
             </div>
             <div>
-                <div className='d-flex justify-content-between align-items-center mt-4 banner'>
+                <div className='d-flex justify-content-between align-items-center mt-4  banner'>
                     <div className='container text-white lh-1 fs-4' >
                     {/* <h1>XIAOMI 14</h1> */}
                     <p>The Pinnacle of SmartPhone Imagery </p>
